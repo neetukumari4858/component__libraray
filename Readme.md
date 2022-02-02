@@ -1,0 +1,1 @@
+Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items.
