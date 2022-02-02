@@ -109,7 +109,7 @@ body{
     margin-top: -1rem;
 }
 /* #Avtar */
-#img1{
+#Avatar-lg{
     border-radius: 50%;
     width: 200px;
     height: 12rem;
@@ -117,7 +117,7 @@ body{
     left: 3rem;
     top: 1rem;
 }
-#img2{
+#Avatar-md{
     border-radius: 50%;
     width: 150px;
     height: 8rem;
@@ -126,7 +126,7 @@ body{
     top: 1rem;
 
 }
-#img3{
+#Avatar-sm1{
     border-radius: 50%;
     width: 100px;
     height: 5rem;
@@ -134,7 +134,7 @@ body{
     left: 3rem;
     top: 1rem;
 }
-#img4{
+#Avatar-sm2{
     border-radius: 50%;
     width: 50px;
     height: 2.5rem;
@@ -142,6 +142,7 @@ body{
     left: 3rem;
     top: 1rem;
 }
+
 #header{
     color: var(--third-color);
 }
