@@ -108,7 +108,7 @@ body{
 .list{
     margin-top: -1rem;
 }
-/* #Avtar */
+/* #avtar */
 #Avatar-lg{
     border-radius: 50%;
     width: 200px;
@@ -126,7 +126,7 @@ body{
     top: 1rem;
 
 }
-#avatar-sm1{
+#avatar-sm{
     border-radius: 50%;
     width: 100px;
     height: 5rem;
@@ -134,7 +134,7 @@ body{
     left: 3rem;
     top: 1rem;
 }
-#avatar-sm2{
+#avatar-xs{
     border-radius: 50%;
     width: 50px;
     height: 2.5rem;
