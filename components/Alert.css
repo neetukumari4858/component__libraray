@@ -1,10 +1,7 @@
-
-/* css for navigation */
-
+/* css for nav*/
 :root{
     --primary-color:#1E40AF;
     --secondary-color:#BFDBFE;
-    --third-color:black;
 }
 body{
     overflow-x: hidden;
@@ -53,14 +50,13 @@ body{
 }
 #githubid{
     position:relative;
-    top:1rem;
     left: 25rem;
+    top: 0.1rem;
 }
 /* outer div  */
 #outerDiv{
     height: 34.5rem;
-    width: 100%;
-    
+    width: 100%;    
 }
 /* sidebar */
 .sidebarItem{
@@ -86,70 +82,27 @@ body{
     overflow-x: hidden;
     position: relative;
     top: -34.6rem;
-    box-shadow: 1px 2px 1px 0.1px gray;
+    box-shadow: 1px 2px 1px 0.1px gainsboro;
 }
 #sidebar::-webkit-scrollbar{
     width: 0.4rem;
     background:var(--primary-color);
-
 }
 #sidebar::-webkit-scrollbar-thumb{
     border-radius: 0.5rem;
-    height: 30rem;
+    height: 28rem;
     background-color:gray;
-    
 }
 .Anchor_link{
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
-
 }
 .list{
     margin-top: -1rem;
 }
-
-/* #avatar */
-
-#avatar-lg{
-    border-radius: 50%;
-    width: 200px;
-    height: 12rem;
-    position: relative;
-    left: 3rem;
-    top: 1rem;
-}
-#avatar-md{
-    border-radius: 50%;
-    width: 150px;
-    height: 8rem;
-    position: relative;
-    left: 3rem;
-    top: 1rem;
-
-}
-#avatar-sm{
-    border-radius: 50%;
-    width: 100px;
-    height: 5rem;
-    position: relative;
-    left: 3rem;
-    top: 1rem;
-}
-#avatar-xs{
-    border-radius: 50%;
-    width: 50px;
-    height: 2.5rem;
-    position: relative;
-    left: 3rem;
-    top: 1rem;
-}
-
-#header{
-    color: var(--third-color);
-}
-#container{
-    width: 66rem;
+/* Alert */
+#container{ width: 66rem;
     height: 34.5rem;
     position: relative;
     top: -69.2rem;
@@ -157,56 +110,82 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
 }
-#Avtar{
-    width: 61rem;
+#Alerts_box{width: 61rem;
     height:60rem;
     position: relative;
     top:2rem;
     left: 4rem;
 }
-.Avtar_para{
-    font-size: 1.5rem;
+#content_Div{
+    height: 50rem;
+    width: 60rem;
 }
-#outercodeDiv{
-    height: 18rem;
-    width: 25rem;
-    border: 1px solid black;
+.Alert_bar_div{
+    width: 50rem;
+    height: 10rem;
+    margin:3rem;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 2px 2px gainsboro;
+}
+#inner_alert_bar1_div{
+    height: 2rem;
+    width: 12rem;
+    background-color: #fde047;
     position: relative;
     top: 1rem;
-    background-color: gainsboro;
+    left: 4rem;
 }
-#innercodeDiv{
-    height: 12rem;
-    width: 20rem;
-    border: 1px solid black;
-    position: relative;
-    top: 3rem;
-    left: 2.4rem;
-    background-color: black;
+#outer_Alert_bar1_div{
+    height: 2rem;
+    width: 11.5rem;
+    background-color: #fae48c;
 }
-#images{
-    height: 14rem;
-    width: 55em;
-    position:relative ;
-    left: 0.1rem;
-    top: 3rem;
-    box-shadow: 2px 1px 1px 3px gainsboro;
-}
-.frame{
-    display: flex;
-    justify-content: center;
-}
-#code{
-    display: flex;
-    justify-content: center;
+#inner_alert_bar2_div{
+    height: 2rem;
+    width: 12rem;
+    background-color: red;
     margin-top: 2rem;
+    position: relative;
+    left: 4rem;
 }
-frame{
-    overflow-y: hidden;
+#outer_Alert_bar2_div{
+    height: 2rem;
+    width: 11.5rem;
+
+    background-color: #f56e85;
 }
-#heading2{
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
+#inner_alert_bar3_div{
+    height: 2rem;
+    width: 12rem;
+    background-color: rgb(4, 163, 4);
+    margin-top: 1rem;
 }
+#outer_Alert_bar3_div{
+    height: 2rem;
+    width: 11.5rem;
+    background-color: 
+    #22c55e;
+}
+#Code_Container{
+    height: 25rem;
+    width: 35rem;
+    margin-top: 6rem;
+    position: relative;
+    left: -4rem;
+}
+h2{
+    position: relative;
+    left: -4rem;
+    top: 3rem;
+}
+#Alert_paragraph{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
 
