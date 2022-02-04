@@ -1,0 +1,191 @@
+/* css for nav*/
+:root{
+    --primary-color:#1E40AF;
+    --secondary-color:#BFDBFE;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+}
+#navigation{
+    background-color: var(--primary-color);
+    height: 5rem;
+    width: 100%;
+}
+#navlabel{
+    font-size: 1.9rem;
+    color: white;
+    position: relative;
+    left: 2rem;
+    top: 1.5rem;
+}
+#navItems{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 30rem;
+    top: -1rem;
+}
+.navItem{
+    text-decoration: none;
+    padding: 2rem 1rem;
+    margin-top: -2rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.fa-github{
+    position: relative;
+    height: 1.2rem;
+    width: 1rem;
+    top:-1.6rem;
+    left: 2.3rem;
+    color: white;
+}
+.github{
+    color: white;
+    text-decoration: none;
+    margin-top: 1.9 rem;
+    font-size: 19px;
+}
+#githubid{
+    position:relative;
+    left: 25rem;
+    top: 0.1rem;
+}
+/* outer div  */
+#outerDiv{
+    height: 34.5rem;
+    width: 100%;    
+}
+/* sidebar */
+.sidebarItem{
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left: -1rem;
+}
+.sidebarItem:hover{
+    background-color: gainsboro;
+    border-radius: 0.5rem;
+    color: var(--primary-color)
+}
+#sidehead{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+#sidebar{
+    height: 34.5rem;
+    width: 15rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    top: -34.6rem;
+    box-shadow: 1px 2px 1px 0.1px gainsboro;
+}
+#sidebar::-webkit-scrollbar{
+    width: 0.4rem;
+    background:var(--primary-color);
+}
+#sidebar::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    height: 28rem;
+    background-color:gray;
+}
+.AnkerItem{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+.list{
+    margin-top: -1rem;
+}
+/* Alert */
+#container{ width: 66rem;
+    height: 34.5rem;
+    position: relative;
+    top: -69.2rem;
+    left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#Alerts_box{width: 61rem;
+    height:60rem;
+    position: relative;
+    top:2rem;
+    left: 4rem;
+}
+#content_Div{
+    height: 50rem;
+    width: 60rem;
+}
+.Alert_bar_div{
+    width: 50rem;
+    height: 10rem;
+    margin:3rem;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 2px 2px gainsboro;
+}
+#inner_alert_bar1_div{
+    height: 2rem;
+    width: 12rem;
+    background-color: #fde047;
+    position: relative;
+    top: 1rem;
+    left: 4rem;
+}
+#outer_Alert_bar1_div{
+    height: 2rem;
+    width: 11.5rem;
+    background-color: #fae48c;
+}
+#inner_alert_bar2_div{
+    height: 2rem;
+    width: 12rem;
+    background-color: red;
+    margin-top: 2rem;
+    position: relative;
+    left: 4rem;
+}
+#outer_Alert_bar2_div{
+    height: 2rem;
+    width: 11.5rem;
+
+    background-color: #f56e85;
+}
+#inner_alert_bar3_div{
+    height: 2rem;
+    width: 12rem;
+    background-color: rgb(4, 163, 4);
+    margin-top: 1rem;
+}
+#outer_Alert_bar3_div{
+    height: 2rem;
+    width: 11.5rem;
+    background-color: 
+    #22c55e;
+}
+#Code_Container{
+    height: 25rem;
+    width: 35rem;
+    margin-top: 6rem;
+    position: relative;
+    left: -4rem;
+}
+h2{
+    position: relative;
+    left: -4rem;
+    top: 3rem;
+}
+#Alert_paragraph{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
