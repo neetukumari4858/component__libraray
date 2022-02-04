@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Oooh+Baby&family=Open+Sans:wght@300&display=swap');
+
 /* css for navigation */
 
 :root{
@@ -99,7 +99,7 @@ body{
     background-color:gray;
     
 }
-.AnkerItem{
+.Anchor_link{
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
