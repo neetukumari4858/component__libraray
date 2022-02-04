@@ -108,7 +108,9 @@ body{
 .list{
     margin-top: -1rem;
 }
-/* #Avtar */
+
+/* #avatar */
+
 #avatar-lg{
     border-radius: 50%;
     width: 200px;
