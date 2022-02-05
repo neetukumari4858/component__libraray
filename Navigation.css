@@ -1,0 +1,53 @@
+:root{
+    --primary-color:#1E40AF;
+    --secondary-color:#BFDBFE;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#navigation{
+    background-color: var(--primary-color);
+    height: 5rem;
+    width: 100% ;
+}
+#navlabel{
+    font-size: 1.9rem;
+    color: white;
+    position: relative;
+    left: 2rem;
+    top: 1.5rem;
+}
+#navItems{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 20rem;
+    top: -1rem;
+}
+.navItem{
+    text-decoration: none;
+    padding: 2rem 1rem;
+    margin-top: -2rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.fa-github{
+    position: relative;
+    height: 1.2rem;
+    width: 1rem;
+    top:-1.6rem;
+    left: 2.3rem;
+    color: white;
+}
+.github{
+    color: white;
+    text-decoration: none;
+    margin-top: 1.9 rem;
+    font-size: 19px;
+}
+#githubid{
+    position:relative;
+    left: 15rem;
+}
