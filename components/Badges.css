@@ -1,0 +1,139 @@
+@import url("/Navigation.css");
+@import url("/document.css");
+
+/* Badges */
+.container{ width: 66rem;
+    height: 34.5rem;
+    position: relative;
+    top: -69.2rem;
+    left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.Badges{
+    width: 57rem;
+    height:90rem;
+    position: relative;
+    top:2rem;
+    left: 4rem;
+}
+.Badge_on_icon{
+    height: 80rem;
+    width: 53rem;
+}
+.icons_Div{
+    height: 6rem;
+    width: 20rem;
+    position: relative;
+    left: 10rem;
+    top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 2px 2px gainsboro;
+}
+.icon{
+    position: relative;
+    top: 1rem;
+}
+.Mail_Badge{
+    position: relative;
+    top: -31px;
+    left: -0.9rem;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 1px 4px;
+    background-color: red;
+    color:white;
+}
+.Bell_Badge{
+    position: relative;
+    top: -29px;
+    left: -1rem;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 1px 4px;
+    background-color: red;
+    color:white;
+}
+.code_container{
+    height: 13rem;
+    width: 45rem;
+    position: relative;
+    top: 4rem;
+    left: 3rem;
+}
+.Badge_on_icon_head{
+    position: relative;
+    top: 6rem;
+}
+#Avatar_lg{
+    border-radius: 50%;
+    width: 200px;
+    height: 12rem;
+}
+#Avatar_md{
+    border-radius: 50%;
+    width: 150px;
+    height: 8rem;
+}
+#Avatar_sm{
+    border-radius: 50%;
+    width: 100px;
+    height: 5rem;
+}
+#Avatar_xs{
+    border-radius: 50%;
+    width: 50px;
+    height: 2.5rem;
+}
+.images_div{
+    height: 14rem;
+    width: 45rem;
+    position: relative;
+    left: 3rem;
+    top: 7rem;
+}
+.Avtar_badge_lg{
+    border-radius: 100%;
+    padding: 0.2em 0.8em;
+    position: relative;
+    top: -2rem;
+    right: 2.1rem;
+    background-color: red;
+}
+.Avtar_badge_md{
+    border-radius: 100%;
+    padding: 0.1em 0.7em;
+    position: relative;
+    top: -1rem;
+    right: 2.1rem;
+    background-color: rgb(4, 168, 4);
+}
+.Avtar_badge_sm{
+    border-radius: 100%;
+    padding: 0.1em 0.6em;
+    position: relative;
+    top: -1rem;
+    right: 1rem;
+    background-color: yellow;
+}
+.Avtar_badge_xs{
+    border-radius: 100%;
+    padding: 0.0em 0.5em;
+    position: relative;
+    top: -0.5rem;
+    right: 1rem;
+    background-color: rgb(255, 0, 221);
+}
+.Badge_on_avatar_code{
+    height: 20rem;
+    width: 40rem;
+    position: relative;
+    top: 11rem;
+    left: 3rem;
+}
+.Badge_paragraph{
+    font-size: 1.5rem;
+}
+
+

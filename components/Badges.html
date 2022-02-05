@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/272d1ec438.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Badges.css"/>
+</head>
+<body>
+    <nav id="navigation">
+        <label id="navlabel">Component Library</label>
+        <ul id="navItems">
+            <a  class="navItem" href="/index.html">Home</a>
+            <a  class="navItem" href="components/Avtar.html">Documentation</a>
+            <div id="githubid"> 
+                <i class="fab fa-github"></i>
+                <a  class="github" href="https://github.com/neetukumari4858?tab=repositories">Github</a>
+            </div>
+        </ul>
+    </nav>
+    <div id="outerDiv"></div>
+        <div id="sidebar">
+            <div id="sidehead">
+                <h3>Components</h3>
+            </div>
+            <ul class="list">
+                <li class="sidebarItem"><a class="Anchor-link" href="Avtar.html">Avatar</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Alert.html">Alerts</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Badges.html">Badge</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Button.html">Button</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Cards.html">Cards</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Image.html">Image</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Form.html">Input</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Rating.html">Rating</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Typography.html">Typography</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Toast.html">Toast</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="Badges">
+                    <h1>Badge</h1>
+                    <p class="Badge_paragraph">Badges are being used to display a notification count or status information</P><hr>
+                    <p class="Badge_paragraph"> We have 2 types of status badges that can be integrated with Avatars. You can show colors to show the online status of user. And to show cart or notification count, you can use number badge. Check code below to copy the html part as is.</p>
+                    <h2>Example of Status Badge</h2>
+                    <h3>Badge on icon</h3>
+                    <div class="Badge_on_icon">
+                        <div class="icons_Div">
+                            <i class="far fa-envelope icon fa-3x"><span class="Mail_Badge">2</span></i>
+                            <i class="far fa-bell icon fa-3x"><span class="Bell_Badge">2</span></i>
+                        </div>
+                        <div class="code_container">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=elixir&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522far%2520fa-envelope%2520icon%2522%253E%253Cspan%2520class%253D%2522icon_Badge%2522%253E2%253C%252Fspan%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-bell%2520icon%2522%253E%253Cspan%2520class%253D%2522icon_Badge%2522%253E2%253C%252Fspan%253E%253C%252Fi%253E"
+                                style="width: 717px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                        <h3 class="Badge_on_icon_head">Badge on avatar</h3>
+                        <div class="images_div">
+                            <img  id="Avatar_lg" src="Avatar.jpg",alt="Italian Trulli"><span class="Avatar_badge_lg"></span>
+                            <img  id="Avatar_md" src="Avatar.jpg",alt="Italian Trulli"><span class="Avatar_badge_md"></span>
+                            <img  id="Avatar_sm" src="Avatar.jpg",alt="Italian Trulli"><span class="Avatar_badge_sm"></span>
+                            <img  id="Avatar_xs" src="Avatar.jpg",alt="Italian Trulli"><span class="Avatar_badge_xs"></span>
+                        </div>
+                        <div class="Badge_on_avatar_code">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=elixir&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520%2520id%253D%2522Avatar_lg%2522%2520src%253D%2522Avtar.jpg%2522%252Calt%253D%2522Italian%2520Trulli%2522%253E%250A%253Cspan%2520class%253D%2522Avtar_badge_lg%2522%253E%253C%252Fspan%253E%250A%253Cimg%2520%2520id%253D%2522Avatar_md%2522%2520src%253D%2522Avtar.jpg%2522%252Calt%253D%2522Italian%2520Trulli%2522%253E%250A%253Cspan%2520class%253D%2522Avtar_badge_md%2522%253E%253C%252Fspan%253E%250A%253Cimg%2520%2520id%253D%2522Avatar_sm%2522%2520src%253D%2522Avtar.jpg%2522%252Calt%253D%2522Italian%2520Trulli%2522%253E%250A%253Cspan%2520class%253D%2522Avtar_badge_sm%2522%253E%253C%252Fspan%253E%250A%253Cimg%2520%2520id%253D%2522Avatar_xs%2522%2520src%253D%2522Avtar.jpg%2522%252Calt%253D%2522Italian%2520Trulli%2522%253E%250A%253Cspan%2520class%253D%2522Avtar_badge_xs%2522%253E%253C%252Fspan%253E"
+                                style="width: 624px; height: 320px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
+

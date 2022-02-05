@@ -1,0 +1,55 @@
+/* outer div  */
+#outerDiv{
+    height: 34.5rem;
+    width: 100%;
+
+}
+/* css for doc */
+.sidebarItem{
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left: -1rem;
+}
+#sidehead{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+#sidebar{
+    height: 34.5rem;
+    width: 15rem;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    top: -34.6rem;
+}
+#sidebar::-webkit-scrollbar{
+    width: 0.4rem;
+    background:white;
+
+}
+#sidebar::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    height: 30rem;
+    background-color:gray;
+    
+}
+.Anchor-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000000;
+
+}
+.list{
+    margin-top: -1rem;
+}
+#ItemDiv:hover{
+    height: 3rem;
+    width: 15rem;
+    background-color: var(--secondary-color);
+    color: blue;
+    padding: 0.1rem 3rem;
+    border: 1px solid black;
+}
