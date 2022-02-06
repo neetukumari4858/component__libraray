@@ -1,0 +1,157 @@
+@import url("/Navigation.css");
+@import url("/document.css");
+.Button1{
+    width: 57rem;
+    height:145rem;
+    position: relative;
+    top:2rem;
+    left: 4rem;
+}
+.container{
+    width: 66rem;
+    height: 34.5rem;
+    position: relative;
+    top: -69.2rem;
+    left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.Primary_btn_div{
+    height: 6rem;
+    width: 54rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 2px rgb(220, 220, 220);
+}
+.btn{
+    height: 2.5rem;
+    margin: 2rem;
+    width: 6.7rem;
+}
+.btn1{
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.btn2{
+    background-color:rgb(240, 50, 82);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.btn3{
+    background-color:rgb(248, 7, 7);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.btn4{
+    background-color:rgb(0, 128, 0);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.code_Container1{
+    position: relative;
+    top: 3rem;
+    text-align: center;
+}
+.btn5{
+    border:1px solid rgb(5, 5, 245);
+    color: rgb(0, 0, 255);
+    font-size: 15px;
+}
+.btn6{
+    border:1px solid rgb(250, 119, 141);
+    color:rgb(236, 52, 82) ;
+    font-size: 15px;
+}
+.btn7{
+    border:1px solid red;
+    color: rgb(248, 4, 4);
+    font-size: 15px;
+}
+.btn8 {
+    border:1px solid green;
+    color: rgb(0, 124, 0);
+    font-size: 15px;
+}
+.outline_btn_heading{
+    position: relative;
+    top: 5rem;
+}
+.paragraph1{
+    position: relative;
+    top: 5rem;
+    
+}
+.outline_btn_div{
+    position: relative;
+    top: 5rem;
+    height: 6rem;
+    width: 54rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 2px gainsboro;
+}
+.code_container2{
+    position: relative;
+    top: 9rem;
+    left: 13rem;
+}
+.Link_container{
+    position: relative;
+    top: 10rem;
+    height: 33rem;
+    
+}
+.code_container3{
+    position: relative;
+    top: 4rem;
+    left: 13rem;
+}
+.Icon_btn_Div{
+    position:relative;
+    top: 5rem;
+    box-shadow: 1px 1px 1px 2px gainsboro;
+    
+}
+.Link_btn_div{
+    position: relative;
+    top: 1rem;
+    height: 6rem;
+    width: 25rem;
+    left: 15.1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 2px gainsboro;
+}
+.Icon_container{
+    position:relative;
+    top: 10rem;
+}
+.Icon_btn_div{
+    position: relative;
+    top: 1rem;
+    height: 6rem;
+    width: 25rem;
+    text-align: center;
+    left: 15.1rem;
+    box-shadow: 1px 1px 1px 2px gainsboro;   
+}
+.float_btn{
+    border-radius: 50%;
+    padding: 1.1rem 1.3rem;
+    background-color: rgb(247, 27, 63);
+    border: none;
+}
+.code_container4{
+    position: relative;
+    top: 3rem;
+    left: 13rem;
+}
+.Paragraph{
+    font-size: 1.4rem;
+}
+
