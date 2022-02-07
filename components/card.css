@@ -1,0 +1,116 @@
+@import url("/Navigation.css");
+@import url("/document.css");
+
+.card{
+    width: 57rem;
+    height:120rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.container{
+    width: 66rem;
+    height: 34.5rem;
+    margin-top: -69.2rem;
+    margin-left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.card_container{
+    height: 11rem;
+    width: 22rem;
+  
+    margin-left: 18rem;
+}
+.inner_first_div{
+    height: 9.5rem;
+    width: 19rem;
+    text-align: center;
+    box-shadow: 2px 2px 8px 2px gainsboro;
+}
+.inner_second_div{
+    height: 8rem;
+    width:18rem ;
+    margin-left: 0.4rem;
+}
+.paragraph{
+    margin-top: -1.2rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.Code_container_first{
+    height: 26rem;
+    width: 35rem;
+    
+    margin-top: 2rem;
+    margin-left: 12rem;
+
+}
+.outer_container{
+    height: 20rem;
+    width: 12.1rem;
+    margin: 2rem;
+    box-shadow: 1px 1px 4px 3px gainsboro;
+}
+.headset_img{
+    height: 10rem;
+    width:12rem ;
+}
+.text_div{
+    height: 9rem;
+    width:12rem;
+}
+.Heading_fourth{
+    margin-top: -1rem;
+}
+.btn{
+    padding: 0.7rem 2rem;
+    margin: -0.4rem 1.7rem;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+}
+.inner_Text{
+    margin-left: 1rem;
+}
+.outer_container1{
+    height: 20rem;
+    width: 12.1rem;
+    margin-top: -21rem;
+    margin-left: 18rem;
+    box-shadow: 1px 1px 4px 3px gainsboro;
+}
+.multiple_card{
+    height: 30rem;
+    width: 55rem;
+    margin-left: 1rem;
+}
+.Badge{
+    height: 1.4rem;
+    width: 2.9rem;
+    border-radius: 0.3rem;
+    background-color:red;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -19.2rem;
+    left: 22rem;
+}
+.outer_container2{
+    opacity: 0.9;
+    background-color: white;
+}
+.outer_container2{
+    opacity: 0.6;
+    height: 20rem;
+    width: 12.1rem;
+    margin-top: -21.8rem;
+    margin-left: 37rem;
+    box-shadow: 1px 1px 4px 3px gainsboro;
+}
+.code_container_second{
+    margin-left: 5rem;
+}
+
+
+
