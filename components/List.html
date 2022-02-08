@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="List.css">
+    <script src="https://kit.fontawesome.com/272d1ec438.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navigation">
+        <label id="navlabel">Component Library</label>
+        <ul id="navItems">
+            <a  class="navItem" href="/index.html">Home</a>
+            <a  class="navItem" href="components/Avtar.html">Documentation</a>
+            <div id="githubid"> 
+                <i class="fab fa-github"></i>
+                <a  class="github" href="https://github.com/neetukumari4858?tab=repositories">Github</a>
+            </div>
+        </ul>
+    </nav>
+    <div id="outerDiv"></div>
+        <div id="sidebar">
+            <div id="sidehead">
+                <h3>Components</h3>
+            </div>
+            <ul class="list">
+                <li class="sidebarItem"><a class="Anchor-link" href="Avtar.html">Avatar</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Alert.html">Alerts</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Badges.html">Badge</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Button.html">Button</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Cards.html">Cards</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Image.html">Image</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Input.html">Input</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Rating.html">Rating</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="List.html">List</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Toast.html">Toast</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Navigation-component.html">Navigation</a></li>
+                <li class="sidebarItem"><a class="Anchor-link" href="Model.html">Model</a></li>
+            </ul>
+        </div>
+        <div class="List_container">
+            <div class="List">
+                <h1>List</h1>
+                <p class="list-paragraph">Lists are continuous, vertical indexes of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.Lists can be used at so many places, navigation bar, stacked notifications, article pages, etc.</p>
+                <h2>  Spaced (normal lists)</h2>
+                <div class="simple_list">
+                    <div class="list-title">Categories</div><hr>
+                        <li class="list-items">Headset</li>
+                        <li class="list-items">Smartphone</li>
+                        <li class="list-items">Earphone</li>
+                        <li class="list-items">Host</li>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522simple_list%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-title%2522%253ECategories%253C%252Fdiv%253E%253Chr%253E%250A%2520%2520%253Cli%2520class%253D%2522list-items%2522%253EHeadset%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-items%2522%253ESmartphone%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-items%2522%253EEarphone%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-items%2522%253EHost%253C%252Fli%253E%250A%253C%252Fdiv%253E"
+                    style="width: 538px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h2>Notification Stacked List</h2>
+                <p class="list-paragraph"> This is stacked list without bullets. We can add desired component inside the "li" element. Check below code for items in stacked list.</p>
+                <div class="stack_list">
+                    <div class="stack_list-title">Categories</div><hr>
+                    <li class="stack_list-items">Headset</li>
+                    <li class="stack_list-items">Smartphone</li>
+                        <ul>
+                            <li class="inner_stack_items">Project</li>
+                            <li class="inner_stack_items">Blog</li>
+                            <li class="inner_stack_items">Badge</li>
+                        </ul>
+                    <li class="stack_list-items">Earphone</li>
+                    <li class="stack_list-items">Host</li>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522stack_list%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522stack_list-title%2522%253ECategories%253C%252Fdiv%253E%253Chr%253E%250A%2520%2520%253Cli%2520class%253D%2522stack_list-items%2522%253EHeadset%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522stack_list-items%2522%253ESmartphone%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inner_stack_items%2522%253EProject%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inner_stack_items%2522%253EBlog%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inner_stack_items%2522%253EBadge%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cli%2520class%253D%2522stack_list-items%2522%253EEarphone%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522stack_list-items%2522%253EHost%253C%252Fli%253E%250A%253C%252Fdiv%253E"
+                    style="width: 588px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+</body>
+</html>
