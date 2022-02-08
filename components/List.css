@@ -1,0 +1,65 @@
+@import url("/Navigation.css");
+@import url("/document.css");
+.List_container{
+    width: 66rem;
+    height: 34.5rem;
+    margin-top: -69.2rem;
+    margin-left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.List{
+    width: 57rem;
+    height:100rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.simple_list{
+    height: 9rem;
+    width: 12rem;
+    margin-left: 2rem;
+    box-shadow: 1px 1px 1px 3px gainsboro;
+}
+.list-title{
+    width: 12rem;
+    height: 2.2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left:1rem ;
+}
+.list-items{
+    list-style: none;
+    margin-left:   1rem;
+}
+/* stack list */
+.stack_list{
+    height: 14rem;
+    width: 12rem;
+    margin-left: 2rem;
+    margin-top:1rem;
+    box-shadow: 1px 1px 1px 3px gainsboro;
+}
+.stack_list-title{
+    width: 12rem;
+    height: 2.2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left:1rem ;
+}
+.stack_list-items{
+    list-style: none;
+    margin-left:  1rem;
+}
+.inner_stack_items{
+    list-style: none;
+}
+iframe{
+    margin-top: 2rem;
+}
+.list-paragraph{
+    font-size: 1.3rem;
+}
