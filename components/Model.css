@@ -1,0 +1,51 @@
+@import url("/Navigation.css");
+@import url("/document.css");
+.Model_container{
+    width: 66rem;
+    height: 34.5rem;
+    margin-top: -69.2rem;
+    margin-left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.Model{
+    width: 57rem;
+    height:65rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.Model-outer-div{
+    height: 18rem;
+    width: 40rem;
+    box-shadow: 1px 1px 1px 3px gainsboro;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.Model-inner-div{
+    height: 14rem;
+    width: 35em;
+    margin-top: 1.8rem;
+    background-color: rgb(184, 218, 231);
+    box-shadow: 1px 1px 1px 3px skyblue;
+    text-align: center;
+}
+.Model-btn{
+    padding: 0.6rem;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.fa-times{
+    position: relative;
+    top: 33rem;
+    left: 38rem;
+}
+.Model-paragraph{
+    font-size: 1.3rem;
+}
+iframe{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
