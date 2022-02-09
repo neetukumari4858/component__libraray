@@ -1,1 +1,0 @@
-Alerts are used to attract user's attention for important information without interrupting the user's flow.
