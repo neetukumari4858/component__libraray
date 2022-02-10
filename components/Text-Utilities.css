@@ -1,0 +1,60 @@
+@import url("/Navigation.css");
+@import url("/document.css");
+.Text_container{
+    width: 66rem;
+    height: 34.5rem;
+    margin-top: -69.2rem;
+    margin-left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.text-utilities{
+    width: 57rem;
+    height:100rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.headings-div{
+    height: 18rem;
+    width: 50rem;
+    text-align: center;
+    box-shadow: 1px 1px 1px 2px gainsboro;
+    
+}
+.outer-text-div{
+    height: 25rem;
+    width: 34rem;
+    margin-left: 8rem;
+    
+}
+.text{
+    height: 3rem;
+    width: 20rem;
+    box-shadow: 1px 1px 1px 2px gainsboro;
+}
+.heading-three{
+    display: flex;
+    margin-top: 4rem;
+}
+.small-text{
+    display: flex;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+.Gray-text{
+    display: flex;
+    padding: 1rem;
+    color: rgb(109, 107, 107);
+}
+.center-text{
+    padding-top: 1rem;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+}
+.Utilities-paragraph{
+    font-size: 1.3rem;
+}
+iframe{
+    margin-top:3rem;
+}

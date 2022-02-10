@@ -1,0 +1,49 @@
+@import url("/Navigation.css");
+@import url("/document.css");
+.Rating_container{
+    width: 81%;
+    height: 34.5rem;
+    margin-top: -69.2rem;
+    margin-left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.Rating{
+    width: 90%;
+    height:60rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.outer_rating_box{
+    height: 13rem;
+    width: 40rem;
+    box-shadow: 1px 1px 1px 3px gainsboro;
+    margin-left: 3rem;
+}
+.inner_rating_box{
+    height: 12rem;
+    width: 35rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+.rating-paragraph{
+    font-size: 1.3rem;
+}
+.fas{
+    color: #ffb400;
+}
+button{
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+iframe{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+#heading2{
+    margin-left: 1.5rem;
+}
