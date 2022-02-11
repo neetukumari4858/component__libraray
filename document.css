@@ -1,10 +1,11 @@
+/* css for documentation */
+
 /* outer div  */
 #outerDiv{
     height: 34.5rem;
     width: 100%;
 
 }
-/* css for doc */
 .sidebarItem{
     list-style: none;
     text-decoration: none;
