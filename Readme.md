@@ -11,6 +11,9 @@ You can also create combinations of components by adding appropriate class to yo
 you can use the installation guide to use the css for the component library.
 ### Here is the Link
 [Link](silly-hoover-e5d73d.netlify.app/)
+# Feature
+Doccumentation :-you can use the installation guide to use the css for the component library.
+
 
 
 
