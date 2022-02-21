@@ -14,6 +14,9 @@ you can use the installation guide to use the css for the component library.
 # Feature
 Doccumentation :-you can use the installation guide to use the css for the component library.
 
+# Here is a Look
+
+![Screenshot from 2022-02-22 00-31-27](https://user-images.githubusercontent.com/90403664/155013586-c76cf17c-4cd0-4ac1-b353-dbafdb12e995.png)
 
 
 
