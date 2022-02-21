@@ -1,0 +1,49 @@
+@import url("/Navigation.css");
+@import url("/document.css");
+
+/* css for Slider */
+
+.slider_container{
+    width: 66rem;
+    height: 34.5rem;
+    margin-top: -69.2rem;
+    margin-left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.slider{
+    width: 57rem;
+    height:45rem;
+    margin-left: 4rem;
+    margin-top: 2rem;  
+}
+.slider-paragraph{
+    font-size: 1.3rem;
+}
+.range-input-div{
+    height: 6rem;
+    width: 45rem;
+    position: relative;
+    box-shadow: 1px 1px 4px 2px gainsboro;
+    top: 3rem;  
+}
+input{
+    width: 35rem;
+    margin-top: -1rem;
+    margin-left: 4rem;
+}
+.slider-number{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.slider-number-items{
+    margin-top: 1.2rem;
+}
+.slider-code-heading{
+    position: relative;
+    top: 4rem;
+}
+iframe{
+    margin-top: 5rem;
+}

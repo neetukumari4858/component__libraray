@@ -1,0 +1,55 @@
+@import url("/Navigation.css");
+@import url("/document.css");
+
+/*  css for Slider */ 
+
+.grid_container{
+    width: 66rem;
+    height: 34.5rem;
+    margin-top: -69.2rem;
+    margin-left: 15.1rem;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.grid{
+    width: 57rem;
+    height:60rem;
+    margin-left: 4rem;
+    margin-top: 2rem;   
+}
+.two-column-grid{
+    height: 6rem;
+    width: 49.4rem;
+    display: grid;
+    grid-template-columns: 24rem 24rem;
+    grid-template-rows: 5rem;
+    grid-gap:0.1rem;
+    background-color:#1E40AF;  
+}
+.item{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color:skyblue;
+}
+.three-column-grid{
+    height: 6rem;
+    width: 49.4rem;
+    display: grid;
+    grid-template-columns: 16rem 16rem 16rem;
+    grid-template-rows: 5rem;
+    grid-gap:0.1rem;
+    background-color:#1E40AF;
+}
+.code-heading-one{
+    position: relative;
+    top: -0.3rem;
+}
+iframe{
+    position: relative;
+    bottom: -1rem;
+    left: 5rem;
+}
+.grid-paragraph{
+    font-size: 1.3rem;
+}
+
