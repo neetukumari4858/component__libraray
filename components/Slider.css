@@ -27,7 +27,7 @@
     box-shadow: 1px 1px 4px 2px gainsboro;
     top: 3rem;  
 }
-input{
+.slider-range{
     width: 35rem;
     margin-top: -1rem;
     margin-left: 4rem;
