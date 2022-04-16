@@ -8,11 +8,11 @@
 @import url(/components/List.css);
 @import url(/components/Rating.css);
 @import url(/components/Toast.css);
-@import url(/Navigation-component.css);
-@import url(/Rating.css);
-@import url(/Model.css);
-@import url(/Text-Utilities.html);
+@import url(/components/Navigation-component.css);
+
+@import url(/components/Model.css);
+@import url(/components/Text-Utilities.css);
 @import url(/Navigation.css);
 @import url(/document.css);
-@import url(/Grid.css);
+@import url(/components/Grid.css);
 
