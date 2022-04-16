@@ -20,11 +20,10 @@
 #sidebar{
     height: 34.5rem;
     width: 15rem;
-    border: 1px solid black;
     overflow-y: scroll;
     overflow-x: hidden;
     position: relative;
-    top: -34.6rem;
+    top: -34.5rem;
 }
 #sidebar::-webkit-scrollbar{
     width: 0.4rem;
