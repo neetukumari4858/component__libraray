@@ -2,90 +2,82 @@
 @import url("/Navigation.css");
 
 /* Alert */
-#container{ width: 66rem;
-    height: 34.5rem;
-    position: relative;
-    top: -69.2rem;
-    left: 15.1rem;
-    overflow-y: scroll;
-    overflow-x: hidden;
+#container {
+  width: 100%;
+  height: 34.5rem;
+  position: relative;
+  top: -69.2rem;
+  left: 15.1rem;
+  overflow-x: hidden;
 }
-#Alerts_box{width: 61rem;
-    height:60rem;
-    position: relative;
-    top:2rem;
-    left: 4rem;
+#Alerts_box {
+  width: 61rem;
+  height: 60rem;
+  position: relative;
+  top: 2rem;
+  left: 4rem;
 }
-#content_Div{
-    height: 50rem;
-    width: 60rem;
+#content_Div {
+  height: 50rem;
+  width: 60rem;
 }
-.Alert_bar_div{
-    width: 50rem;
-    height: 10rem;
-    margin:3rem;
-    margin-top: 4rem;
-    box-shadow: 1px 1px 2px 2px gainsboro;
+.Alert_bar_div {
+  width: 50rem;
+  height: 10rem;
+  margin: 3rem;
+  margin-top: 4rem;
+  box-shadow: 1px 1px 2px 2px gainsboro;
 }
-#inner_alert_bar1_div{
-    height: 2rem;
-    width: 12rem;
-    background-color: #fde047;
-    position: relative;
-    top: 1rem;
-    left: 4rem;
+#inner_alert_bar1_div {
+  height: 2rem;
+  width: 12rem;
+  background-color: #fde047;
+  position: relative;
+  top: 1rem;
+  left: 4rem;
 }
-#outer_Alert_bar1_div{
-    height: 2rem;
-    width: 11.5rem;
-    background-color: #fae48c;
+#outer_Alert_bar1_div {
+  height: 2rem;
+  width: 11.5rem;
+  background-color: #fae48c;
 }
-#inner_alert_bar2_div{
-    height: 2rem;
-    width: 12rem;
-    background-color: red;
-    margin-top: 2rem;
-    position: relative;
-    left: 4rem;
+#inner_alert_bar2_div {
+  height: 2rem;
+  width: 12rem;
+  background-color: red;
+  margin-top: 2rem;
+  position: relative;
+  left: 4rem;
 }
-#outer_Alert_bar2_div{
-    height: 2rem;
-    width: 11.5rem;
+#outer_Alert_bar2_div {
+  height: 2rem;
+  width: 11.5rem;
 
-    background-color: #f56e85;
+  background-color: #f56e85;
 }
-#inner_alert_bar3_div{
-    height: 2rem;
-    width: 12rem;
-    background-color: rgb(4, 163, 4);
-    margin-top: 1rem;
+#inner_alert_bar3_div {
+  height: 2rem;
+  width: 12rem;
+  background-color: rgb(4, 163, 4);
+  margin-top: 1rem;
 }
-#outer_Alert_bar3_div{
-    height: 2rem;
-    width: 11.5rem;
-    background-color: 
-    #22c55e;
+#outer_Alert_bar3_div {
+  height: 2rem;
+  width: 11.5rem;
+  background-color: #22c55e;
 }
-#Code_Container{
-    height: 25rem;
-    width: 35rem;
-    margin-top: 6rem;
-    position: relative;
-    left: -4rem;
+#Code_Container {
+  height: 25rem;
+  width: 35rem;
+  margin-top: 6rem;
+  position: relative;
+  left: -4rem;
 }
-.copyAnduseText{
-    position: relative;
-    left: -4rem;
-    top: 3rem;
+.copyAnduseText {
+  position: relative;
+  left: -4rem;
+  top: 3rem;
 }
-#Alert_paragraph{
-    font-size: 1.5rem;
+#Alert_paragraph {
+  font-size: 1.5rem;
 }
-
-
-
-
-
-
-
-
